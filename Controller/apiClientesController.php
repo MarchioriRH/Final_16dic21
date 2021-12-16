@@ -1,6 +1,6 @@
 <?php
 
-include_once 'View/clientesView.php';
+include_once 'View/apiClientesView.php';
 include_once 'Model/apiClientesModel.php';
 
 class ApiClientesController {
@@ -8,8 +8,8 @@ class ApiClientesController {
     private $clientesModel;
 
     function __construct() {
-        $this->apiClientesView = new apiClientesView();
-        $this->apiClientesModel = new apiClientesModel();
+        $this->apiClientesView = new ApiClientesView();
+        $this->apiClientesModel = new ApiClientesModel();
     }
 
     public function obtenerTarjetasAsociadas($params = []){
