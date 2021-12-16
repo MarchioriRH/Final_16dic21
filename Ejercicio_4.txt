@@ -1,0 +1,13 @@
+A) ('cliente/:ID', GET, 'ApiClienteController', 'obtenerDatosCliente');
+B) ('cliente/:ID', PUT, 'ApiClienteController', 'modificarDatosCliente');
+C) ('cliente/tarjetas/:ID', GET, 'ApiClienteController', 'obtenerTarjetasAsociadas');
+D) ('cliente/cuenta/:ID', GET, 'ApiClienteController', 'obtenerEstadoDeCuenta');
+E) ('cliente/cuenta/:ID?fechaInicio=:fechaInicio&fechaFin=:fechaFin', GET, 'ApiClienteController', 'obtenerEstadoDeCuentaEntreFechas');
+F) ('cliente/tarjetas/:ID', DELETE, 'ApiClienteController', eliminarTarjetaAsociada);
+
+a) Para poder integrar estos requerimientos a travez de una API REST se deberia modificar el archivo
+htaccess para poder utilizar el ruteo necesario que nos permita acceder desde el front-end directamente
+a los datos, ademas de crear una estructura de datos que permita el trabajo con JSON. 
+Estos datos se deberian consumir a traves de una pagina que muestre el contenido de manera dinamica.
+
+Ejercicio C en el archivo ApiClientesController.php.

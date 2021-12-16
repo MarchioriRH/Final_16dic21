@@ -1,0 +1,19 @@
+a) 
+i) API REST es una forma de comunicación entre aplicaciones y servicios web. 
+Este tipo de comunicación se realiza mediante un protocolo de comunicación HTTP y permite que la misma informacion pueda ser utilizada
+por disitintos dispositivos. Se basa en que la informacion pueda ser consumida por los usuarios sin importar 
+el tipo de conexion o "pantalla" que se utilice.
+
+ii) Una nueva funcionalidad puede ser la de poder realizar todas las acciones de ABM desde cualquier plataforma.
+
+b) 
+i) SSR (Server Side Rendering), este sistema se utiliza para renderizar una pagina web completa desde un servidor. 
+Ejemplo: un usuario hace un requerimiento, este se procesa totalmente en el servidor y se devuelve la pagina completa 
+a la aplicacion.
+
+ii) HTTP Status Code: Es un codigo que indica el estado de una peticion al servidor. 
+Ejemplo: 404: No se encontro la pagina, 200: OK, 500: Error interno del servidor, 403: Acceso denegado, 500: Error interno del servidor.
+
+iii) Sesiones de usuarios: como el lenguaje HTML es "statusless", los datos de inicio de sesion se deben guardar en el servidor o en otros medios para que el 
+usuario pueda acceder al contenido de un sitio web para el que esta autorizado. En PHP el comando $_SESSION se puede utilizar para guardar estos datos.
+Ejemplo: se puede guardar el mail del usuario para futuras comprobaciones, como asi tambien su id de usuario o rol que cumple en el sistema (admin, user, etc).
